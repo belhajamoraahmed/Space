@@ -53,5 +53,5 @@ d’appellation provient d’une redéfinition de ce qu’est une planète.
 ','Pluton','http://assets.stickpng.com/thumbs/580b585b2edbce24c47b2708.png') ;
 
 INSERT INTO user(id ,email, mdp,groupe,username) VALUES(1,"mariem@gmail.com","123","2ing2","mariem hajjem");
-INSERT INTO user(id ,email, mdp,groupe,username) VALUES(1,"ahmed@gmail.com","123","2ing1","Ahmed ahmed");
+INSERT INTO user(id ,email, mdp,groupe,username) VALUES(2,"ahmed@gmail.com","123","2ing1","Ahmed ahmed");
 
