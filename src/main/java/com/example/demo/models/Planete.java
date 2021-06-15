@@ -23,18 +23,30 @@ private String nom ;
 @Lob 
 @Column
 private String description ;
+	
+@Column
+private String url ;
 
-public Planete(long id, String nom, String description) {
+public Planete(long id, String nom, String description,String url) {
 	super();
 	this.id = id;
 	this.nom = nom;
 	this.description = description;
+	this.url = url;
 }
 
 public Planete() {
 	
 }
-
+	
+public String getURL(){
+return url;
+}
+	
+public void setURL(String url) {
+	this.url = url;
+}	
+	
 public long getId() {
 	return id;
 }
